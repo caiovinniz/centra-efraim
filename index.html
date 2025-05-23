@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Central Efraim - Fretes Pequenos</title>
+  <meta name="description" content="Central Efraim - Serviços de fretes pequenos com segurança, rapidez e eficiência." />
+  <meta name="keywords" content="fretes, transporte, pequenas cargas, entrega rápida, Central Efraim" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Central Efraim</h1>
+    <p>Fretes pequenos com segurança e rapidez</p>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre Nós</h2>
+      <img src="https://images.unsplash.com/photo-1509228627152-460b9e15f5b8?auto=format&fit=crop&w=900&q=60" alt="Veículo de frete pequeno" class="service-image" />
+      <p>A Central Efraim oferece serviços de fretes pequenos, garantindo eficiência, cuidado e pontualidade para atender suas necessidades.</p>
+    </section>
+    <section>
+      <h2>Serviços</h2>
+      <p>Transporte rápido e seguro para pequenas cargas, entregas residenciais e comerciais, e soluções personalizadas para seu frete.</p>
+    </section>
+    <section>
+      <h2>Depoimentos</h2>
+      <div class="testimonial">
+        <p>"Excelente serviço, entregaram minha carga no prazo e com muito cuidado!"</p>
+        <div class="author">- João Silva</div>
+      </div>
+      <div class="testimonial">
+        <p>"Recomendo a Central Efraim pela eficiência e atendimento impecável."</p>
+        <div class="author">- Maria Souza</div>
+      </div>
+    </section>
+    <section>
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para solicitar um orçamento ou tirar dúvidas.</p>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:centralefraim@gmail.com">centralefraim@gmail.com</a></p>
+        <p>Telefone: <a href="tel:+5513991959594">(13) 99195-9594</a></p>
+      </div>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu email" required />
+        <textarea name="message" placeholder="Sua mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="form-response" style="margin-top:1rem; color:green; display:none;">Mensagem enviada com sucesso!</div>
+    </section>
+    <section>
+      <h2>Localização</h2>
+      <div id="map"></div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Central Efraim. Todos os direitos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/5513991959594" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M20.52 3.48..."/></svg>
+  </a>
+
+  <script src="script.js"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"></script>
+</body>
+</html>
